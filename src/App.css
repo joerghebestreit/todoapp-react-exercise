@@ -9,3 +9,33 @@
 .App {
   text-align: center;
 }
+
+.Header {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+
+.addButton {
+  padding: 0 5px;
+}
+
+.todo {
+  border: 3px solid black;
+  margin: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.deleteButton {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.completeButton {
+  padding: 5px;
+  margin-right: 10px;
+}
